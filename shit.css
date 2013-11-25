@@ -1,0 +1,110 @@
+body{
+	background:url(shit.jpg) repeat;
+	background-size: 256px 256px;
+	}
+	
+/* .lemon {
+   width: 200px; height: 200px; 
+   background: .F5F240;
+   border: 1px solid .F0D900;
+   border-radius: 10px 150px 30px 150px;
+} */
+
+
+.icon{
+	transition: 1s;
+	width:200px;
+	height:200px;
+	-webkit-border-radius: 100px;
+	}
+	
+	
+.jiro{
+	background:url(jiro.png) ;
+	float: left;
+	border: 5px white solid;
+	}
+.tat{
+	background: url(tat.jpg);
+	float: right;
+	border: 5px black solid;
+	}
+	
+	
+.Jirotakeo{
+	/* position: absolute; */
+	transition: 1s;
+	padding:1%;
+	background-color:rgba(0,0,0,0.2);
+	float:left;
+	width:25%;
+	height:720px;
+	}
+.Jirotakeo>h1{
+	text-align:center;
+	color:white;
+	}
+.Jirotakeo p{
+	color:rgba(255,255,255,0);
+	clear:left;
+	margin-top:15px;
+	position: relative;
+	}
+	
+	
+.Tatcoolx{
+	position: static;
+	transition: 1s;
+	padding:1%;
+	background-color:rgba(240,240,255,0.3);
+	text-align:right;
+	float:right;
+	width:25%;
+	height:720px;
+	}
+.Tatcoolx>h1{
+	text-align:center;
+	color:black;
+	}
+.Tatcoolx p{
+	color:rgba(0,0,0,0);
+	clear:right;
+	}
+	
+	
+.jiro:hover {
+	-webkit-transform: rotate(360deg);
+	}
+
+.tat:hover {
+	-webkit-transform: rotate(-360deg);
+	}
+	
+	
+.Jirotakeo:hover{
+	background-color:rgba(0,0,0,1);
+	width:65%;
+	border:3px white dashed;
+	border-radius:0 20% 20% 0;
+	}
+.Jirotakeo:hover>h1{
+	color:rgba(255,250,205,1);
+	}
+.Jirotakeo:hover p{
+	color:rgba(255,250,205,1);
+	}
+	
+	
+.Tatcoolx:hover{
+	background-color:rgba(240,240,255,1);
+	width:65%;
+	border:3px black dashed;
+	border-radius:20% 0 0 20%;
+	}
+.Tatcoolx:hover>h1{
+	color:rgba(0,0,205,1);
+	}
+.Tatcoolx:hover p{
+	color:rgba(0,0,205,1);
+	margin-top:15px;
+	}
